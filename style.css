@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}    
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 300px;
+    height: auto;
+}
+
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px
+}
+
+.navigation a{
+    color:#8E65DF;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.navigation a:hover{
+    color: #4ECDC4;
+}
+
+body {
+    background-color: #f5f5f5;
+    color:#0c0220;
+    line-height: 1.5;
+    align-items: center;
+    text-align:center;
+}
+
+.container {
+    color: #8E65DF;
+    font-size: 50px;
+    margin: 15;
+    display:flex;
+    width: 100%;
+    height: 500px;
+    padding: 5px 0;
+    text-align: center;
+    background-image:url(Img/reemplazo.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:"Playfair", serif;
+}
+
+.bannerparrafo {
+    display: flex;
+    position: relative;
+    width: 10;
+    background-color: #f4ecec95;
+    height: 400px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family:"Raleway", sans-serif;
+    line-height: 1.6;
+    color: #111111;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.encima {
+    position:relative;
+    top: 0px;
+    left: 0;
+    padding: 10px;
+    z-index: 3px;
+    text-align: center;
+}
+
+.contenido {
+    padding: 10px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: left;
+} 
+
+.card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit:center;
+    margin-bottom: 5px;
+}
+
+.email{
+    color: #4ECDC4;
+    line-height: 1.1;
+}
+
+.card h2{
+    font-size: 20px;   
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5px;
+}
+
+.card {
+    border-radius: 8px;
+    width:400px;
+    padding:10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+.quote {
+    background-color: #4ECDC4;
+    border-radius: 20px;
+    width:700px;
+    padding:100px;
+    margin: inherit;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px; 
+}
+
+.card-horizontal {
+    background-color: #f0e7f0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    box-shadow:0 2px 6px
+}
+
+.card-horizontal img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: right;
+    margin-bottom: 5px;
+    }
+
+.blockquote {
+    background-color: #FF6B6B;
+    border-radius: 20px;
+    width:700px;
+    padding:100px;
+    margin: inherit;
+    text-align: right;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    box-shadow: 0 2px 6px;
+    position: absolute;
+}
+
+.email2 {
+    color:#FF6B6B;
+    line-height: 1.1;
+}
+
+
+
+
